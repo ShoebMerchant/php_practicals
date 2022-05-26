@@ -15,8 +15,13 @@
     <?php
     class student
     {
-        public $name = 'ali';
-        public $rno = 55;
+        public $name;
+        public $rno;
+        function __construct($a = 'ali', $b = 55)
+        {
+            $this->name = $a;
+            $this->rno = $b;
+        }
     }
     $a = new student();
     echo "$a->name $a->rno";

@@ -10,10 +10,9 @@
 
 <body>
     <?php
-    $count = 1;
     $num = 1;
-    for ($i = 0; $i < 4; $i++, $count++) {
-        for ($j = 0; $j < $count; $j++)
+    for ($i = 1; $i < 5; $i++) {
+        for ($j = 0; $j < $i; $j++)
             echo $num++ . " ";
         echo "<br />";
     }

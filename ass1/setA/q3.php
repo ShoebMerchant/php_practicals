@@ -48,7 +48,7 @@
             array('CPP', 'WT ', 'PP ', 'SE ', 'SE ', 'SE '),
             array('WT ', 'CPP', 'SE ', 'CPP', 'WT ', 'WT '),
         );
-        echo $time_table[0][0];
+
         for ($i = 0; $i <= 2; $i++) {
             echo "<tr class=\"table\">";
             for ($j = 0; $j <= 5; $j++) {
