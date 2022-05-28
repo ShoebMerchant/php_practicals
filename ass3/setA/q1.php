@@ -10,12 +10,12 @@
 
 <body>
     <?php
-    $arr = array();
-    array_push($arr, 54);
-    array_push($arr, 58);
-    array_pop($arr);
+    $arr = array("a" => 1, "b" => 2, "c" => 3, "d" => 4);
     print_r($arr);
+    echo "<br />";
+    echo count($arr);
     ?>
+
 </body>
 
 </html>

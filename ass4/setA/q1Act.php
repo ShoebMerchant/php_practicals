@@ -1,5 +1,5 @@
 <?php
-$r    =   $_GET['r'];
+$r   =   $_GET['r'];
 $h   =   $_GET['h'];
 define('PI', '3.14');
 

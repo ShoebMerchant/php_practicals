@@ -11,7 +11,11 @@
 <body>
     <h3>SET A</h3>
     <p>
-        2. Write a PHP script to create a Class shape and its subclass triangle, square and display area of the selected shape.( use the concept of Inheritance) Display menu (use radio button) <br>
+        2. Write a PHP script to create a Class shape
+        and its subclass triangle, square
+        and display area of the selected shape.
+        ( use the concept of Inheritance)
+        Display menu (use radio button) <br>
         a) Triangle <br>
         b) Square <br>
         c) Rectangle <br>

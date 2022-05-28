@@ -11,7 +11,7 @@
     <h3>SET B</h3>
     <p>
         3. Write a PHP script for the following: <br />
-        a) Design a form to accept two numbersfrom the users.<br />
+        a) Design a form to accept two numbers from the users.<br />
         b) Give option to choose an arithmetic operation (use RadioButton).<br />
         c) Display the result on next form. d) Use concept of default parameter.
     </p>

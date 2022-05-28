@@ -10,10 +10,13 @@
 
 <body>
     <?php
-    $arr = array();
-    array_push($arr, 54);
-    array_push($arr, 58);
-    array_pop($arr);
+    $arr = array("a" => 1, "b" => 2, "c" => 3, "d" => 4);
+    print_r($arr);
+    echo "<br/>";
+    $arr = array_flip($arr);
+    print_r($arr);
+    echo "<br/>";
+    shuffle($arr);
     print_r($arr);
     ?>
 </body>

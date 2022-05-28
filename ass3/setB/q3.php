@@ -10,11 +10,13 @@
 
 <body>
     <?php
-    $arr = array();
-    array_push($arr, 54);
-    array_push($arr, 58);
-    array_pop($arr);
-    print_r($arr);
+    $que = array(54, 85, 24, 95);
+    array_unshift($que, 25);
+    array_unshift($que, 29);
+    print_r($que);
+    echo "<br/>";
+    array_shift($que);
+    print_r($que);
     ?>
 </body>
 

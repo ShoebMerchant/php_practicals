@@ -15,7 +15,7 @@
 </html>
 
 <?php
-$all_lines = file('https://www.w3resource.com/');
+$all_lines = file('https://www.php.net/manual/en/function.file.php');
 foreach ($all_lines as $line_num => $line) {
     echo "Line No.-{$line_num}: " . htmlspecialchars($line) . "\n";
 }
